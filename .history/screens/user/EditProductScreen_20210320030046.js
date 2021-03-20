@@ -1,5 +1,5 @@
 import React,{ useEffect, useCallback , useReducer} from 'react'
-import { View, ScrollView, KeyboardAvoidingView, StyleSheet, Button, Alert } from 'react-native';
+import { View, Text, ScrollView, TextInput, StyleSheet, Button, Alert } from 'react-native';
 import {useSelector,useDispatch} from 'react-redux';
 import { createProduct, updateProduct } from '../../store/actions/products';
 import Input from '../../components/UI/Input';
@@ -82,7 +82,6 @@ const EditProductScreen = (props) => {
     },[dispatchFormState]) 
 
     return (
-        <KeyboardAvoidingView style={{flex:1}} behavior='padding' keyboardVerticalOffset={10}>
         <ScrollView>
             <View style={styles.form}>
 
@@ -106,7 +105,6 @@ const EditProductScreen = (props) => {
             
             </View>
         </ScrollView>
-        </KeyboardAvoidingView>
     )
 };
 
