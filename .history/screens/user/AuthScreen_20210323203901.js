@@ -142,7 +142,7 @@ const styles = StyleSheet.create({
         width:'80%',
         maxWidth:400,
         height:'65%',
-        maxHeight:450,
+        maxHeight:400,
         padding:20,
     },
     gradient:{

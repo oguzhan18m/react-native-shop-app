@@ -85,9 +85,9 @@ const AuthScreen = (props) => {
 
     return (
         <KeyboardAvoidingView  style={styles.screen}>
-            <LinearGradient colors={['#fff' , '#cecece' , '#dedede' ]} style={styles.gradient}>
+            <LinearGradient colors={['#ffedff' , '#ffedff' , '#ffe3ff' ]} style={styles.gradient}>
                 <Card style={styles.authContainer}>
-                    <ScrollView>
+                    <View>
                         <Input 
                         id='email' 
                         label='E-mail' 
@@ -121,7 +121,7 @@ const AuthScreen = (props) => {
                                 setIsSignup(prevState => !prevState)
                             }} />
                         </View>
-                    </ScrollView>
+                    </View>
                 </Card>
         </LinearGradient>
         </KeyboardAvoidingView>
@@ -141,8 +141,8 @@ const styles = StyleSheet.create({
     authContainer:{
         width:'80%',
         maxWidth:400,
-        height:'65%',
-        maxHeight:450,
+        height:'60%',
+        maxHeight:400,
         padding:20,
     },
     gradient:{

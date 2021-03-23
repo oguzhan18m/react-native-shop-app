@@ -97,6 +97,7 @@ const styles = StyleSheet.create({
     borderColor: '#ccc',
     borderWidth: 1,
     borderRadius:24,
+    marginVertical:5
   },
   errorContainer:{
       marginVertical :5,

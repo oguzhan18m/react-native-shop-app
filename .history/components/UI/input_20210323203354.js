@@ -83,19 +83,17 @@ const Input = props => {
 
 const styles = StyleSheet.create({
   formControl: {
-    width: '100%',
-    padding:10,
+    width: '100%'
   },
   label: {
     fontFamily: 'Inter_900Black',
-    marginVertical: 5
+    marginVertical: 8
   },
   input: {
-    width:'100%',
-    paddingHorizontal: 15,
+    paddingHorizontal: 2,
     paddingVertical: 5,
-    borderColor: '#ccc',
-    borderWidth: 1,
+    borderBottomColor: '#ccc',
+    borderBottomWidth: 1,
     borderRadius:24,
   },
   errorContainer:{

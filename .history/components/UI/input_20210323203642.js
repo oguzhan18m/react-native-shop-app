@@ -92,11 +92,12 @@ const styles = StyleSheet.create({
   },
   input: {
     width:'100%',
-    paddingHorizontal: 15,
+    paddingHorizontal: 5,
     paddingVertical: 5,
     borderColor: '#ccc',
     borderWidth: 1,
     borderRadius:24,
+    marginVertical:5
   },
   errorContainer:{
       marginVertical :5,

@@ -141,8 +141,8 @@ const styles = StyleSheet.create({
     authContainer:{
         width:'80%',
         maxWidth:400,
-        height:'65%',
-        maxHeight:450,
+        height:'70%',
+        maxHeight:400,
         padding:20,
     },
     gradient:{

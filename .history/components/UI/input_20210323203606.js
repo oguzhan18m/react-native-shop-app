@@ -91,12 +91,12 @@ const styles = StyleSheet.create({
     marginVertical: 5
   },
   input: {
-    width:'100%',
-    paddingHorizontal: 15,
+    paddingHorizontal: 2,
     paddingVertical: 5,
     borderColor: '#ccc',
     borderWidth: 1,
     borderRadius:24,
+    marginVertical:5
   },
   errorContainer:{
       marginVertical :5,
